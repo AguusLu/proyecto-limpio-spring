@@ -11,7 +11,7 @@ public class ControladorRegistrarmeTest {
             = new DatosRegistro("agus.com", "123", "123");
     public static final DatosRegistro USUARIO_CON_CLAVE_INCORRECTA
              = new DatosRegistro("agus.luu@gmail.com", "1243", "12345");
-    private static final DatosRegistro USUARIO
+    public static final DatosRegistro USUARIO
             = new DatosRegistro("agus.luu@gmail.com", "123", "123");
 
     @Test

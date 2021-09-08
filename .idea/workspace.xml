@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0c2ce8-0489-4525-8fab-0790420c882d" name="Changes" comment="Registro + tarea">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/DatosRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/DatosRegistro.java" afterDir="false" />
+    <list default="true" id="ec0c2ce8-0489-4525-8fab-0790420c882d" name="Changes" comment="Correcciones test">
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarmeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/persistencia/ConexionBaseDeDatosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/persistencia/ConexionBaseDeDatosTest.java" afterDir="false" />
     </list>
@@ -260,7 +257,7 @@
       <workItem from="1630521309975" duration="5838000" />
       <workItem from="1630716535738" duration="3301000" />
       <workItem from="1631020473851" duration="16519000" />
-      <workItem from="1631106143112" duration="265000" />
+      <workItem from="1631106143112" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="travis">
       <created>1630723222441</created>
@@ -311,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631058789285</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Correcciones test">
+      <created>1631106469551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631106469551</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +341,7 @@
     <MESSAGE value="add email Travis" />
     <MESSAGE value="rename Travis" />
     <MESSAGE value="Registro + tarea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registro + tarea" />
+    <MESSAGE value="Correcciones test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcciones test" />
   </component>
 </project>
