@@ -8,7 +8,6 @@ public class DatosRegistro {
     public DatosRegistro(){
 
     }
-
     public DatosRegistro(String email, String clave, String repiteClave) {
         this.email = email;
         this.clave = clave;

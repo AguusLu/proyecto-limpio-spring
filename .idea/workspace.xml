@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0c2ce8-0489-4525-8fab-0790420c882d" name="Changes" comment="rename Travis">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/DatosRegistro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarmeTest.java" afterDir="false" />
+    <list default="true" id="ec0c2ce8-0489-4525-8fab-0790420c882d" name="Changes" comment="Registro + tarea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/DatosRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/DatosRegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarmeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/persistencia/ConexionBaseDeDatosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/persistencia/ConexionBaseDeDatosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <recent name="ar.edu.unlam.tallerweb1.controladores" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControladorRegistrarmeTest.puedoRegistrarmeConUsuarioNuevoYClaveCorrecta">
+  <component name="RunManager" selected="JUnit.ControladorRegistrarmeTest">
     <configuration name="CerraduraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyecto-limpio-spring" />
       <extension name="coverage">
@@ -84,6 +83,37 @@
       <option name="PACKAGE_NAME" value="ar.edu.unlam.tallerweb1.tdd" />
       <option name="MAIN_CLASS_NAME" value="ar.edu.unlam.tallerweb1.tdd.CerraduraTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControladorRegistrarmeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyecto-limpio-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.unlam.tallerweb1.controladores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.unlam.tallerweb1.controladores" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unlam.tallerweb1.controladores.ControladorRegistrarmeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControladorRegistrarmeTest.noPuedoRegistrarmeConMailDeUsuarioIncorrecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyecto-limpio-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.unlam.tallerweb1.controladores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.unlam.tallerweb1.controladores" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unlam.tallerweb1.controladores.ControladorRegistrarmeTest" />
+      <option name="METHOD_NAME" value="noPuedoRegistrarmeConMailDeUsuarioIncorrecto" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,7 +238,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ControladorRegistrarmeTest" />
         <item itemvalue="JUnit.ControladorRegistrarmeTest.puedoRegistrarmeConUsuarioNuevoYClaveCorrecta" />
+        <item itemvalue="JUnit.ControladorRegistrarmeTest.noPuedoRegistrarmeConMailDeUsuarioIncorrecto" />
         <item itemvalue="JUnit.CerraduraTest" />
       </list>
     </recent_temporary>
@@ -227,7 +259,8 @@
       <workItem from="1630430271058" duration="1842000" />
       <workItem from="1630521309975" duration="5838000" />
       <workItem from="1630716535738" duration="3301000" />
-      <workItem from="1631020473851" duration="10953000" />
+      <workItem from="1631020473851" duration="16519000" />
+      <workItem from="1631106143112" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="travis">
       <created>1630723222441</created>
@@ -271,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631040753387</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Registro + tarea">
+      <created>1631058789285</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631058789285</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +336,7 @@
     <MESSAGE value="CajaFuerte" />
     <MESSAGE value="add email Travis" />
     <MESSAGE value="rename Travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename Travis" />
+    <MESSAGE value="Registro + tarea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registro + tarea" />
   </component>
 </project>
