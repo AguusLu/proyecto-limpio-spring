@@ -4,25 +4,25 @@
 <html>
 <head>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="/proyecto_limpio_spring_war_exploded/css/bootstrap.min.css" rel="stylesheet" >
     <!-- Bootstrap theme -->
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/proyecto_limpio_spring_war_exploded/css/bootstrap-theme.min.css" rel="stylesheet">
 </head>
 <body>
 <div class = "container">
     <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-        <form:form action="registrarme" method="POST" modelAttribute="usuario">
-            <h3 class="form-signin-heading">Nuevo Usuario</h3>
+        <form:form action="registrarme" method="POST" modelAttribute="datos">
+            <h3 class="form-signin-heading">Nuevo Usuario ${parametro}</h3>
             <hr class="colorgraph"><br>
 
             <form:input path="email" id="email" class="form-control" />
             <form:input path="clave" type="password" id="clave" class="form-control"/>
-
+            <form:input path="repiteClave" type="password" id="repiteClave" class="form-control"/>
             <button id="btn-registrarme" class="btn btn-lg btn-primary btn-block" Type="Submit"/>Registrarme</button>
         </form:form>
 
-        <c:if test="${not empty error}">
-            <h4><span>${error}</span></h4>
+        <c:if test="${not empty msg}">
+            <h4><span>${msg}</span></h4>
             <br>
         </c:if>
     </div>

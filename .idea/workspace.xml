@@ -9,7 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0c2ce8-0489-4525-8fab-0790420c882d" name="Changes" comment="Correcciones test">
+    <list default="true" id="ec0c2ce8-0489-4525-8fab-0790420c882d" name="Changes" comment="MSG Error registrar + Mockito">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/tdd/ServicioLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/proyecto_limpio_spring_war_exploded/WEB-INF/classes/ar/edu/unlam/tallerweb1/servicios/ServicioLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/proyecto_limpio_spring_war_exploded/WEB-INF/classes/ar/edu/unlam/tallerweb1/servicios/ServicioLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/proyecto_limpio_spring_war_exploded/WEB-INF/classes/ar/edu/unlam/tallerweb1/servicios/ServicioLoginImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/proyecto_limpio_spring_war_exploded/WEB-INF/classes/ar/edu/unlam/tallerweb1/servicios/ServicioLoginImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/proyecto_limpio_spring_war_exploded/WEB-INF/vistas/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/proyecto_limpio_spring_war_exploded/WEB-INF/vistas/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/proyecto_limpio_spring_war_exploded/WEB-INF/vistas/registro-usuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/proyecto_limpio_spring_war_exploded/WEB-INF/vistas/registro-usuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/ServicioLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/ServicioLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/ServicioLoginImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/unlam/tallerweb1/servicios/ServicioLoginImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/registro-usuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/registro-usuario.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/controladores/ControladorRegistrarmeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/persistencia/ConexionBaseDeDatosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/unlam/tallerweb1/persistencia/ConexionBaseDeDatosTest.java" afterDir="false" />
     </list>
@@ -67,8 +78,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ar.edu.unlam.tallerweb1.controladores" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ar.edu.unlam.tallerweb1.tdd" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControladorRegistrarmeTest">
+  <component name="RunManager" selected="JUnit.ServicioLoginTest">
     <configuration name="CerraduraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyecto-limpio-spring" />
       <extension name="coverage">
@@ -127,6 +141,21 @@
       <option name="MAIN_CLASS_NAME" value="ar.edu.unlam.tallerweb1.controladores.ControladorRegistrarmeTest" />
       <option name="METHOD_NAME" value="puedoRegistrarmeConUsuarioNuevoYClaveCorrecta" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicioLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyecto-limpio-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.unlam.tallerweb1.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.unlam.tallerweb1.tdd" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unlam.tallerweb1.tdd.ServicioLoginTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,6 +264,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServicioLoginTest" />
         <item itemvalue="JUnit.ControladorRegistrarmeTest" />
         <item itemvalue="JUnit.ControladorRegistrarmeTest.puedoRegistrarmeConUsuarioNuevoYClaveCorrecta" />
         <item itemvalue="JUnit.ControladorRegistrarmeTest.noPuedoRegistrarmeConMailDeUsuarioIncorrecto" />
@@ -257,7 +287,9 @@
       <workItem from="1630521309975" duration="5838000" />
       <workItem from="1630716535738" duration="3301000" />
       <workItem from="1631020473851" duration="16519000" />
-      <workItem from="1631106143112" duration="578000" />
+      <workItem from="1631106143112" duration="1231000" />
+      <workItem from="1631224808976" duration="6939000" />
+      <workItem from="1631830293460" duration="7044000" />
     </task>
     <task id="LOCAL-00001" summary="travis">
       <created>1630723222441</created>
@@ -315,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631106469551</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Correcciones test">
+      <created>1631107223902</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631107223902</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +381,7 @@
     <MESSAGE value="rename Travis" />
     <MESSAGE value="Registro + tarea" />
     <MESSAGE value="Correcciones test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcciones test" />
+    <MESSAGE value="MSG Error registrar + Mockito" />
+    <option name="LAST_COMMIT_MESSAGE" value="MSG Error registrar + Mockito" />
   </component>
 </project>
